@@ -6,7 +6,7 @@ https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 
 ### Presentation (Elena)
 - Topic:  Number of installs vs price/ratings
-- Reason why:
+- Reason why: We want to see if there is a correlation 
 - Description of their source of data: 
 - Questions we hope to answer:
 

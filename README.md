@@ -19,6 +19,7 @@ https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 - We are assuming that we will use Supervised learning with Linear regression (multiple linear regressions).
 
 ### Database (Daniel)
+(add Technology.md)
 
 ### Next Steps
 - Clean data

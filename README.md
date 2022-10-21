@@ -16,7 +16,7 @@ https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 
 ### Machine Learning Model (Vera)
 - Supervised learning
-- Linear regression
+- Linear regression (multiple linear regressions)
 
 ### Database (Daniel)
 - 

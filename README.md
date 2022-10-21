@@ -16,7 +16,7 @@ https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 
 ### Machine Learning Model (Vera)
 - As we are analysing a regression and not a classification problem we are going to use one of the models which can analyse linear regression.
-- Supervised learning Linear regression (multiple linear regressions)
+- We are assuming that we will use Supervised learning with Linear regression (multiple linear regressions).
 
 ### Database (Daniel)
 

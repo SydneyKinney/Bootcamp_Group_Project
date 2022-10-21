@@ -8,7 +8,7 @@ https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 - Topic:  Number of installs vs price/ratings
 - Reason why: We want to see if there is a correlation 
 - Description of their source of data: This files contains Application data of more than 600K applications with the 23 attributes.
-- Questions we hope to answer:
+- Questions we hope to answer: Does price/ratings affect installations? And in which way?
 
 ### GitHub (Sydney)
 - Description of the communication protocals: weekly via Slack and Zoom (outside and inside of class)

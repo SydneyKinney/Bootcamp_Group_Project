@@ -32,3 +32,6 @@ https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 
 ### Google Slides
 https://docs.google.com/presentation/d/1gvNWIWWYQ6Ukn4O0uKVrIXYC7oMEa9UQfz_MoQJllL0/edit?usp=sharing
+
+### Tableau
+https://public.tableau.com/app/profile/elena4442/viz/Bootcamp_Group_Projuct/MaxInstallsRatingCountbyCategory?publish=yes

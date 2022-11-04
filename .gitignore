@@ -1,0 +1,7 @@
+.DS_store
+Google-Playstore.csv
+google_app_info.csv
+clean_google_playstore.csv
+local_settings.py
+.ipynb_checkpoints
+__pycache__

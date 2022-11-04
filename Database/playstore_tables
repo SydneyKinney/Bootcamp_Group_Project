@@ -1,0 +1,28 @@
+-- Create tables for google-playstore
+CREATE TABLE google_app_info (
+    app_name VARCHAR,
+    category VARCHAR,
+    rating INT,
+    rating_count INT,
+    price INT,
+    PRIMARY KEY (app_name),
+    UNIQUE (category)
+    
+);
+    
+ 
+CREATE TABLE app_installs (
+    app_name VARCHAR,
+    maximum_installs INT,
+    price INT,
+    ad_supported INT,
+    PRIMARY KEY (app_name)
+);
+
+CREATE TABLE categories (
+    category VARCHAR,
+    category_id VARCHAR,
+    PRIMARY KEY (category_id),
+);
+
+SELECT 

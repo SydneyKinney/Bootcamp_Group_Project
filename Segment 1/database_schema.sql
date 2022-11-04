@@ -1,18 +1,20 @@
-Google_playstore
+google_app_info
 -
-app_name varchar
+app_name varchar pk
 maximum_installs int
-category_id varchar
+category varchar
 rating int
 price int
 rating_count int
 
-Price_install
+app_installs
 -
-price int
+app_name varchar pk
 maximum_install int
+price int
+ad_supported int
 
-Category
+categories
 -
-category varchar
-category_id varchar
+category varchar fk
+category_id varchar pk

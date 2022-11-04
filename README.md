@@ -25,4 +25,7 @@ https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 - We are assuming that we will use Supervised learning with Linear regression (multiple linear regressions).
 - Linear regression had a very low accuracy score so we are trying random forest
 
+### Database (Daniel)
+- AWS
+- pgAdmin
 

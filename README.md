@@ -1,6 +1,5 @@
 # Bootcamp_Group_Project
 
-
 ### Dataset
 https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 
@@ -19,6 +18,7 @@ https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 ### GitHub (Sydney)
 - Description of the communication protocals: weekly via Slack and Zoom (outside and inside of class)
 - One branch per team member: SQL(Daniel), Database(Vera), GitHub(Sydney), Machine Learning(Elena)
+- Create new branches and deleting old branches as we move throughout our project
 
 
 ### Machine Learning Model (Vera)

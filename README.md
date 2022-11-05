@@ -24,7 +24,7 @@ https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 ### Machine Learning Model (Vera)
 - As we are analysing a regression and not a classification problem we are going to use one of the models which can analyse linear regression.
 - We are assuming that we will use Supervised learning with Linear regression (multiple linear regressions).
-- Linear regression had a very low accuracy score.
+- Linear regression had a very low accuracy score. We will try to do some more cleaning and analysis of a feature importancy, after we will try to build a different machine learning models. 
 
 ### Database (Daniel)
 - AWS

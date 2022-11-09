@@ -43,7 +43,7 @@
 ## Links
 
 #### Google Slides
-https://docs.google.com/presentation/d/1gvNWIWWYQ6Ukn4O0uKVrIXYC7oMEa9UQfz_MoQJllL0/edit?usp=sharing
+https://docs.google.com/presentation/d/1o8UILo1VpHJlNcD0_tMlmD5RyWv_ONd3PsxXDaaWKyk/edit?usp=sharing
 
 #### Tableau
 https://public.tableau.com/app/profile/elena4442/viz/Bootcamp_Group_Projuct/MaxInstallsRatingCountbyCategory?publish=yes

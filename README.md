@@ -35,3 +35,13 @@ https://docs.google.com/presentation/d/1gvNWIWWYQ6Ukn4O0uKVrIXYC7oMEa9UQfz_MoQJl
 
 ### Tableau
 https://public.tableau.com/app/profile/elena4442/viz/Bootcamp_Group_Projuct/MaxInstallsRatingCountbyCategory?publish=yes
+
+### Machine Learning Model (Need to complete)
+Description of data preprocessing
+Description of feature engineering and the feature selection, including the decision-making process
+Description of how data was split into training and testing sets
+Explanation of model choice, including limitations and benefits
+Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+Description of how they have trained the model thus far, and any additional training that will take place
+Description of current accuracy score
+

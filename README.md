@@ -3,7 +3,7 @@
 ### Dataset
 https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 
-### Presentation (Elena)
+### Presentation 
 - Topic:  Number of installs vs price/ratings
 - Reason why: We want to see if there is a correlation 
 - Description of their source of data: This files contains Application data of more than 600K applications with the 23 attributes.
@@ -15,18 +15,12 @@ https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 5) Does ad support have a impact on the rating of the app?
 6) What impact does reviews have on installs?
 
-### GitHub (Sydney)
-- Description of the communication protocals: weekly via Slack and Zoom (outside and inside of class)
-- One branch per team member: SQL(Daniel), Database(Vera), GitHub(Sydney), Machine Learning(Elena)
-- Create new branches and deleting old branches as we move throughout our project
-
-
-### Machine Learning Model (Vera)
+### Machine Learning Model 
 - As we are analysing a regression and not a classification problem we are going to use one of the models which can analyse linear regression.
 - We are assuming that we will use Supervised learning with Linear regression (multiple linear regressions).
 - Linear regression had a very low accuracy score. We will try to do some more cleaning and analysis of a feature importancy, after we will try to build a different machine learning models to compare scores.
 
-### Database (Daniel)
+### Database 
 - AWS
 - pgAdmin
 

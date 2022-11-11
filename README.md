@@ -21,7 +21,8 @@
 - Description of data preprocessing: First, we dropped unnecessary columns. Then, we found nulls, NaN, and duplicates. We then formated the column headers and rows.  Finally, we made sure that all data was numeric.
 - Description of feature engineering and the feature selection, including the decision-making process: We decided to leave the remaining columns and encode all of them in order to prepare for the machine learning.
 - Description of how data was split into training and testing sets: 
-- <img width="755" alt="split_train_test" src="https://user-images.githubusercontent.com/105990653/201261034-f5222b12-2644-49a4-b2cc-0f3e06109643.png">
+<img width="755" alt="split_train_test" src="https://user-images.githubusercontent.com/105990653/201261034-f5222b12-2644-49a4-b2cc-0f3e06109643.png">
+
 - Explanation of model choice, including limitations and benefits: Our main question is a regression questions so we had to choose from a regression machine learning model. We tried the Linear Regression model and that produced a very low score. We then tried the Random Forest Regressor model (with 300 decision trees) and that model showed a higher score.
 - Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables): In the begining of the modeling we thought that Linear Regression would show better results, but it did not so we tried Random Forest instead which showed better results.
 - Description of how they have trained the model thus far, and any additional training that will take place: We utilized the sklearn.model_selection train_test_split function for our training purposes.
@@ -46,6 +47,8 @@
 <img width="1017" alt="Max Installs by Category" src="https://user-images.githubusercontent.com/107209737/201394637-33730fb3-4742-4d49-a761-8bdf2823ae65.png">
 
 #### Number of Installs Depending on Price:
+
+![Max installs by Price (2)](https://user-images.githubusercontent.com/107209737/201395202-6d6281cd-39d1-4e9c-933d-6195dbb029dd.png)
 
 #### Ad Support and Impact on Rating of App:
 

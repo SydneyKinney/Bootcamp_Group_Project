@@ -8,9 +8,9 @@
 #### Questions we hope to answer: 
 - Does price/ratings affect installations? And in which way?
 - What are the top 10 installed categories?
-- What is the number of downloads depending on the price?
-- Does ad support have a impact on the rating of the app?
-- What impact does reviews have on installs?
+- What is the number of installs depending on the price (including ad support)?
+- What is the number of installs depending on the rating (including ad support)?
+
 
 ## Process
 
@@ -46,13 +46,13 @@
 
 <img width="1017" alt="Max Installs by Category" src="https://user-images.githubusercontent.com/107209737/201394637-33730fb3-4742-4d49-a761-8bdf2823ae65.png">
 
-#### Number of Installs Depending on Price:
+#### Number of Installs Depending on Price (including ad support):
 
-![Max installs by Price (2)](https://user-images.githubusercontent.com/107209737/201395202-6d6281cd-39d1-4e9c-933d-6195dbb029dd.png)
+![Max installs by Price (2)](https://user-images.githubusercontent.com/107209737/201439345-68b323aa-7163-409b-b2d9-ef28d5df5371.png)
 
-#### Ad Support and Impact on Rating of App:
+#### Number of Installs Depending on Rating of App (including ad support):
 
-![Max Installs by Raiting (1)](https://user-images.githubusercontent.com/107209737/201394653-646cfa84-c346-49db-97dd-102bd1bac29f.png)
+![Max Installs by Rating](https://user-images.githubusercontent.com/107209737/201439330-b3a78c89-77d3-4f74-8f3a-8784f662649c.png)
 
 ## Summary
 - The price of an app does have an affect on installation.

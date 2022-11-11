@@ -23,8 +23,8 @@
 - Description of how data was split into training and testing sets: 
 <img width="755" alt="split_train_test" src="https://user-images.githubusercontent.com/105990653/201261034-f5222b12-2644-49a4-b2cc-0f3e06109643.png">
 
-- Explanation of model choice, including limitations and benefits: Our main question is a regression questions so we had to choose from a regression machine learning model. We tried the Linear Regression model and that produced a very low score. We then tried the Random Forest Regressor model (with 300 decision trees) and that model showed a higher score.
-- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables): In the begining of the modeling we thought that Linear Regression would show better results, but it did not so we tried Random Forest instead which showed better results.
+- Explanation of model choice, including limitations and benefits: Our main question is a regression question so we had to choose from a regression machine learning model. We tried the Linear Regression model and that produced a very low score. We then tried the Random Forest Regressor model (with 300 decision trees) and that model showed a higher score.
+- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables): In the begining of the modeling, we thought that Linear Regression would show better results, but it did not so we tried Random Forest instead which showed better results.
 - Description of how they have trained the model thus far, and any additional training that will take place: We utilized the sklearn.model_selection train_test_split function for our training purposes.
 - Description of current accuracy score: below is an image of the scores from each model we tried.
 <img width="316" alt="DataFrame" src="https://user-images.githubusercontent.com/105990653/201264320-04b82b05-b613-469f-8114-1a307633b225.png">

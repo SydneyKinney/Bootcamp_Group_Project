@@ -7,7 +7,7 @@
 
 #### Questions we hope to answer: 
 - Does price/ratings affect installations? And in which way?
-- What are the top 10 installed categories?
+- What are the top 10 apps that have the most installs?
 - What is the number of installs depending on the price (including ad support)?
 - What is the number of installs depending on the rating (including ad support)?
 
@@ -42,9 +42,9 @@
 
 <img width="459" alt="Max Installs by Raiting" src="https://user-images.githubusercontent.com/107209737/201394685-7b18dee6-2111-4b1f-81df-ea6915ec99b2.png">
 
-#### Top 10 Installed Categories:
+#### Top 10 Apps That Have the Most Installs:
 
-<img width="1017" alt="Max Installs by Category" src="https://user-images.githubusercontent.com/107209737/201394637-33730fb3-4742-4d49-a761-8bdf2823ae65.png">
+![Top 10 Average Rating Count per Category (2)](https://user-images.githubusercontent.com/107209737/201441216-49c0ce2d-612c-495c-adf6-2696366b11dc.png)
 
 #### Number of Installs Depending on Price (including ad support):
 

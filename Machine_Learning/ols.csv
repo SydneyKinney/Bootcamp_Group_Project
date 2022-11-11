@@ -1,0 +1,65 @@
+,                       OLS Regression Results                       ,,,,,,
+,Dep. Variable:   ,y               ,  R-squared:         ,0.911,,,
+,Model:           ,OLS             ,  Adj. R-squared:    ,0.911,,,
+,Method:          ,Least Squares   ,  F-statistic:       ,4.76E+05,,,
+,Date:            ,Tue, 08 Nov 2022,  Prob (F-statistic):,0,,
+,Time:            ,17:39:43,  Log-Likelihood:    ,-3.05E+07,,,
+,No. Observations:,1776212,  AIC:               ,6.10E+07,,,
+,Df Residuals:    ,1776173,  BIC:               ,6.10E+07,,,
+,Df Model:        ,38,                     ,           ,,,
+,Covariance Type: ,nonrobust       ,                     ,           ,,,
+,     ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+Feature Names,const,2.63E+05,8.03E+04,3.28,0.001,1.06E+05,4.21E+05
+Rating_Count,x2   ,9008.269,2532.781,3.557,0.000,4044.107,1.40E+04
+Minimum_Installs,x4   ,0.7713,0,1701.367,0.000,0.77,0.772
+Price,x5   ,0.7691,0,1705.082,0.000,0.768,0.77
+Editors_Choice_False,x44  ,1.66E+05,4.12E+04,4.02,0.000,8.48E+04,2.46E+05
+Editors_Choice_True,x45  ,-9.59E+05,2.58E+05,-3.72,0.000,-1.46E+06,-4.54E+05
+Rating,x1   ,2.63E+05,8.03E+04,3.28,0.001,1.06E+05,4.21E+05
+Category_Sports,x29  ,1.20E+05,3.51E+04,3.413,0.001,5.10E+04,1.89E+05
+Ad_Supported_False,x40  ,1.45E+05,4.33E+04,3.357,0.001,6.05E+04,2.30E+05
+Ad_Supported_True,x41  ,1.33E+05,4.05E+04,3.288,0.001,5.38E+04,2.12E+05
+In_App_Purchases_False,x42  ,1.30E+05,4.05E+04,3.215,0.001,5.08E+04,2.10E+05
+Category_Personalization,x23  ,4.61E+04,1.51E+04,3.05,0.002,1.65E+04,7.58E+04
+Free_True,x39  ,1.18E+05,4.52E+04,2.609,0.009,2.94E+04,2.07E+05
+In_App_Purchases_True,x43  ,9.78E+04,4.12E+04,2.376,0.018,1.71E+04,1.79E+05
+Category_Communication,x12  ,-7.19E+04,3.43E+04,-2.098,0.036,-1.39E+05,-4721.542
+Category_Other,x22  ,6.87E+04,3.56E+04,1.929,0.054,-1114.286,1.38E+05
+Category_Education,x13  ,5.23E+04,3.43E+04,1.522,0.128,-1.50E+04,1.20E+05
+Category_Action,x7   ,-217.2179,218.618,-0.994,0.320,-645.701,211.265
+Category_Arcade,x8   ,4.00E+04,4.43E+04,0.903,0.366,-4.68E+04,1.27E+05
+Category_Entertainment,x14  ,1.53E+04,1.72E+04,0.892,0.373,-1.84E+04,4.90E+04
+Category_Tools,x30  ,-2.55E+04,3.41E+04,-0.747,0.455,-9.23E+04,4.14E+04
+Content_Rating_Unrated,x37  ,1.06E+05,1.42E+05,0.746,0.456,-1.73E+05,3.85E+05
+Category_Casual,x11  ,1.65E+04,2.33E+04,0.709,0.478,-2.91E+04,6.21E+04
+Category_Puzzle,x26  ,1.91E+04,2.81E+04,0.68,0.496,-3.60E+04,7.42E+04
+Content_Rating_Mature 17+,x35  ,7.11E+04,1.46E+05,0.489,0.625,-2.14E+05,3.56E+05
+Category_Health & Fitness,x17  ,1.35E+04,3.11E+04,0.435,0.663,-4.74E+04,7.44E+04
+Category_Travel & Local,x31  ,-7876.079,2.10E+04,-0.375,0.708,-4.90E+04,3.33E+04
+Category_Medical,x19  ,-8574.434,2.37E+04,-0.363,0.717,-5.49E+04,3.78E+04
+Category_Food & Drink,x16  ,-1.02E+04,2.98E+04,-0.341,0.733,-6.85E+04,4.82E+04
+Content_Rating_Everyone 10+,x34  ,4.24E+04,1.42E+05,0.3,0.764,-2.35E+05,3.20E+05
+Content_Rating_Adults only 18+,x32  ,8892.4668,2.99E+04,0.298,0.766,-4.97E+04,6.75E+04
+Category_Books & Reference,x9   ,-9469.4601,3.35E+04,-0.283,0.778,-7.52E+04,5.62E+04
+Category_Social,x28  ,7687.532,2.96E+04,0.259,0.795,-5.04E+04,6.58E+04
+Category_Productivity,x25  ,-8813.6804,3.87E+04,-0.228,0.820,-8.47E+04,6.71E+04
+Category_News & Magazines,x21  ,4246.5459,2.06E+04,0.206,0.836,-3.61E+04,4.46E+04
+Content_Rating_Teen,x36  ,2.61E+04,1.44E+05,0.182,0.856,-2.56E+05,3.08E+05
+Category_Shopping,x27  ,-4772.0366,3.33E+04,-0.143,0.886,-7.00E+04,6.04E+04
+Category_Photography,x24  ,3272.4359,2.53E+04,0.13,0.897,-4.62E+04,5.28E+04
+Category_Music & Audio,x20  ,-5294.2887,4.19E+04,-0.126,0.900,-8.75E+04,7.69E+04
+Category_Business,x10  ,2790.445,2.27E+04,0.123,0.902,-4.17E+04,4.73E+04
+Category_Lifestyle,x18  ,-2238.6948,2.82E+04,-0.079,0.937,-5.75E+04,5.30E+04
+Free_False,x38  ,2.31E+04,5.31E+05,0.043,0.965,-1.02E+06,1.06E+06
+Size,x6   ,47.2022,1906.462,0.025,0.980,-3689.398,3783.802
+Category_Finance,x15  ,-232.9536,2.09E+04,-0.011,0.991,-4.12E+04,4.08E+04
+Content_Rating_Everyone,x33  ,-5479.4239,5.39E+05,-0.01,0.992,-1.06E+06,1.05E+06
+,Omnibus:      ,7778622.429,  Durbin-Watson:     ,2,,,
+,Prob(Omnibus):,0,  Jarque-Bera (JB):  ,8.53736E+14,,,
+,Skew:         ,135.399,  Prob(JB):          ,0,,,
+,Kurtosis:     ,107406.575,  Cond. No.          ,1.00E+16,,,
+,,,,,,,
+,Notes:,,,,,,
+,[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.,,,,,,
+,[2] The smallest eigenvalue is 6.84e-12. This might indicate that there are,,,,,,
+,strong multicollinearity problems or that the design matrix is singular.,,,,,,

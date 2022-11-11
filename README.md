@@ -37,10 +37,19 @@
 - Python
 
 ## Results
-Rating Effect on Installations:
-Top 10 Installed Categories:
-Number of Installs Depending on Price:
-Ad Support and Impact on Rating of App
+#### Rating Effect on Installations:
+
+<img width="459" alt="Max Installs by Raiting" src="https://user-images.githubusercontent.com/107209737/201394685-7b18dee6-2111-4b1f-81df-ea6915ec99b2.png">
+
+#### Top 10 Installed Categories:
+
+<img width="1017" alt="Max Installs by Category" src="https://user-images.githubusercontent.com/107209737/201394637-33730fb3-4742-4d49-a761-8bdf2823ae65.png">
+
+#### Number of Installs Depending on Price:
+
+#### Ad Support and Impact on Rating of App:
+
+![Max Installs by Raiting (1)](https://user-images.githubusercontent.com/107209737/201394653-646cfa84-c346-49db-97dd-102bd1bac29f.png)
 
 ## Summary
 - The price of an app does have an affect on installation.

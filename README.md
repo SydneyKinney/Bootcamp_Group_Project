@@ -33,9 +33,11 @@
 #### Database 
 - AWS
 - pgAdmin
+- postgreSQL
 
 #### Language
 - Python
+- SQL
 
 ## Results
 #### Rating Effect on Installations:

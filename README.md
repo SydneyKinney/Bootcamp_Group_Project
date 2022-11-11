@@ -34,4 +34,4 @@ https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 https://docs.google.com/presentation/d/1gvNWIWWYQ6Ukn4O0uKVrIXYC7oMEa9UQfz_MoQJllL0/edit?usp=sharing
 
 ### Tableau
-https://public.tableau.com/app/profile/elena4442/viz/Bootcamp_Group_Projuct/MaxInstallsRatingCountbyCategory?publish=yes
+https://public.tableau.com/views/Bootcamp_Group_Projuct/MaxinstallsbyPrice2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link

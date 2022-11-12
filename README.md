@@ -15,18 +15,19 @@
 ## Process
 
 #### Machine Learning Model Overview
-- We originally planned to use Supervised learning with linear regression. However, linear regression had a very low score. We then tried RandomForrestRegressor300 and that produced a higher score. Therefore, we decided to use RandomForrestRegressor300 as our Machine Learning Model.
+- We originally planned to use Supervised learning with linear regression. However, linear regression had a very low score. We then tried Random Forrest models and that produced a higher score. Therefore, we decided to use Random Forrest Regressor as our Machine Learning Model.
 
 #### Machine Learning Model Details
 - Any type of machine learning involves data preparation since it needs precise numerical data. Having said that, we began by removing the columns, which will not have an impact for training purposes. Then we checked if data has any nulls and duplicates and it did, so we removed it too.
 The biggest challenge was to transform column Size to a numerical value: before it had a string like 10M or 1000k, for example and we decided to make it a float value with relevant to its meaning data. Therefore, we created a function with IF statement, which would iterate through all the rows and replace each string with number using a formula to remove the suffix from the end of the string and multiply the value by mathematical number to transform it to a precise value. 
+
 ![Screenshot 2022-11-12 at 11 50 23 AM](https://user-images.githubusercontent.com/105990653/201492040-2bf89f81-21c3-4f1a-b114-55d264f24d8b.png)
 
-For the columns which contained Booleans we used another function to iterate through each row and change type Boolean to type Integer.
+ For the columns which contained Booleans we used another function to iterate through each row and change type Boolean to type Integer.
 
 ![Screenshot 2022-11-12 at 11 52 10 AM](https://user-images.githubusercontent.com/105990653/201492094-2548754a-4fb8-4251-aa1f-ec0c5c134a0a.png)
 
-And for the last one is “Content Rating” column, which contains String value too we used a get_dummies function to convert a categorical data into dummy or indicator variables and assigning one binary column per categorical feature.
+ And for the last one is “Content Rating” column, which contains String value too we used a get_dummies function to convert a categorical data into dummy   or indicator variables and assigning one binary column per categorical feature.
 
 ![Screenshot 2022-11-12 at 11 53 31 AM](https://user-images.githubusercontent.com/105990653/201492151-a162c21b-6662-4795-ac92-d303f1213206.png)
 
@@ -35,7 +36,7 @@ Knowing that our data was essentially clean and had been converted to a numerica
 
 ![Screenshot 2022-11-12 at 11 56 58 AM](https://user-images.githubusercontent.com/105990653/201492273-1419be88-bbd3-4712-ba90-3ac8f886a433.png)
 
-It helped us to determine with columns to remove from features that do not have a significant effect on the dependent variable or prediction of output.
+ It helped us to determine with columns to remove from features that do not have a significant effect on the dependent variable or prediction of output.
 
 - Description of how data was split into training and testing sets: 
 <img width="755" alt="split_train_test" src="https://user-images.githubusercontent.com/105990653/201261034-f5222b12-2644-49a4-b2cc-0f3e06109643.png">
@@ -46,10 +47,12 @@ First, we tried the Linear Regression model, which is easier to implement, inter
 - Then we decided to try a Random Forest model instead as a it produces good predictions that can be understood easily. It can handle large datasets efficiently, which we have. The random forest algorithm provides a higher level of accuracy in predicting outcomes over the decision tree algorithm.
 Therefore, we tried the Random Forest Regressor model (with 300 decision trees) and that model showed a higher score. After that we decided to try same Random Forest Regressor model but with less decision trees (100) and this model has a little higher score. The main limitation of random forest is that a large number of trees can make the algorithm too slow and ineffective for real-time predictions. In general, these algorithms are fast to train, but quite slow to create predictions once they are trained.
 
-- Description of how they have trained the model thus far, and any additional training that will take place: We utilized the sklearn.model_selection train_test_split function for our training purposes.
-- Description of current accuracy score: below is an image of the scores from each model we tried.
-<img width="316" alt="DataFrame" src="https://user-images.githubusercontent.com/105990653/201264320-04b82b05-b613-469f-8114-1a307633b225.png">
+- Before we trained our dataset, we created a list where we defined the models we are going to use and created an empty list for results of the model. 
+then we developed a function for training the models that would use all the models we defined, train the data, and append the results to the list we had already generated.
 
+- Below is an image of the scores from each model we tried:
+
+![Screenshot 2022-11-12 at 12 38 08 PM](https://user-images.githubusercontent.com/105990653/201493683-19d5c355-d5a3-499b-a27f-b9080320f7b1.png)
 
 #### Database 
 - AWS

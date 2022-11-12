@@ -1,7 +1,7 @@
 # Google App Store Analysis
 
 ## Overview  
-- Main topic: Number of installs vs price/ratings
+- Main topic: Number of installs vs price/ratings.
 - Why: We want to see if there is a correlation 
 - Description of the source of data: This files contains Application data of more than 600K applications with the 23 attributes
 

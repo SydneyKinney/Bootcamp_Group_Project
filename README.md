@@ -32,7 +32,7 @@ The biggest challenge was to transform column Size to a numerical value: before 
 ![Screenshot 2022-11-12 at 11 53 31 AM](https://user-images.githubusercontent.com/105990653/201492151-a162c21b-6662-4795-ac92-d303f1213206.png)
 
 - The next step was feature engineering, which was difficult because we had to look at new ways to choose which columns to keep for machine learning. Because the goal of this machine learning model is to forecast whether any data variables have an impact on the quantity of installations of the App in the Google Store, we chose the "Maximum Installs" column as our target value.
-Knowing that our data was essentially clean and had been converted to a numerical format, we chose to use Backwards Elimination to select a subset of explanatory variables for the model. As a result of the selective process, we created an OLS table which shows P-value of each column respectively. 
+Knowing that our data was essentially clean and had been converted to a numerical format, we chose to use Backwards Elimination method to select a subset of explanatory variables for the model. As a result of the selective process, we created an OLS table which shows P-value of each column respectively. 
 
 ![Screenshot 2022-11-12 at 11 56 58 AM](https://user-images.githubusercontent.com/105990653/201492273-1419be88-bbd3-4712-ba90-3ac8f886a433.png)
 

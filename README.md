@@ -67,19 +67,19 @@ then we developed a function for training the models that would use all the mode
 ## Results
 #### Rating Effect on Installations:
 
-<img width="459" alt="Max Installs by Raiting" src="https://user-images.githubusercontent.com/107209737/201394685-7b18dee6-2111-4b1f-81df-ea6915ec99b2.png">
+![Installs   Rating Count by Category](https://user-images.githubusercontent.com/107209737/201786839-b0ab3809-9c6e-4d4c-bddd-9223dc011e7a.png)
 
 #### Top 10 Apps That Have the Most Installs:
 
-![Top 10 Average Rating Count per Category (2)](https://user-images.githubusercontent.com/107209737/201441216-49c0ce2d-612c-495c-adf6-2696366b11dc.png)
+![Top 10 Apps by Installs](https://user-images.githubusercontent.com/107209737/201786573-5ba53235-930b-4f32-8aab-29734ed2b87b.png)
 
 #### Number of Installs Depending on Price (including ad support):
 
-![Max installs by Price (2)](https://user-images.githubusercontent.com/107209737/201439345-68b323aa-7163-409b-b2d9-ef28d5df5371.png)
+![Installs by Price](https://user-images.githubusercontent.com/107209737/201786705-556b6ae7-4137-4f5e-a510-832072c8169b.png)
 
 #### Number of Installs Depending on Rating of App (including ad support):
 
-![Max Installs by Rating](https://user-images.githubusercontent.com/107209737/201439330-b3a78c89-77d3-4f74-8f3a-8784f662649c.png)
+![Installs by Raiting](https://user-images.githubusercontent.com/107209737/201786784-467ab94e-a4cf-4122-8eee-bcae9cb67d42.png)
 
 ## Summary
 - The price of an app does have an affect on installation.

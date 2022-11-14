@@ -1,20 +1,20 @@
 google_app_info
 -
-app_name varchar pk
-maximum_installs int
-category varchar
-rating int
-price int
-rating_count int
+app_name VARCHAR PK
+category VARCHAR
+rating FLOAT
+rating_count FLOAT
+free BOOL
+price FLOAT
+content_rating VARCHAR
+editors_choice BOOL
 
 app_installs
 -
-app_name varchar pk
-maximum_install int
-price int
-ad_supported int
-
-categories
--
-category varchar fk
-category_id varchar pk
+app_name VARCHAR  PK FK >- google_app_info.app_name
+minimum_installs FLOAT
+installs FLOAT
+maximum_installs FLOAT
+size FLOAT
+ad_supported FLOAT
+in_app_purchases BOOL

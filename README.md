@@ -85,26 +85,6 @@ then we developed a function for training the models that would use all the mode
 - The rating of an app does have an affect on installation. 
 - There are more downloads for free apps versus apps that users have to pay for.
 
-## Links
-
-#### Google Slides
-https://docs.google.com/presentation/d/1o8UILo1VpHJlNcD0_tMlmD5RyWv_ONd3PsxXDaaWKyk/edit?usp=sharing
-
-#### Tableau
-https://public.tableau.com/app/profile/elena4442/viz/Bootcamp_Group_Projuct/MaxInstallsRatingCountbyCategory?publish=yes
-
-#### Dataset
-https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
-=======
-
-#### Number of Installs Depending on Price (including ad support):
-
-![Max installs by Price (2)](https://user-images.githubusercontent.com/107209737/201439345-68b323aa-7163-409b-b2d9-ef28d5df5371.png)
-
-#### Number of Installs Depending on Rating of App (including ad support):
-
-![Max Installs by Rating](https://user-images.githubusercontent.com/107209737/201439330-b3a78c89-77d3-4f74-8f3a-8784f662649c.png)
-
 ## Summary
 - The price of an app does have an affect on installation.
 - The rating of an app does have an affect on installation. 

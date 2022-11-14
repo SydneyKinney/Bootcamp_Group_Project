@@ -14,6 +14,15 @@
 
 ## Process
 
+#### Database 
+- AWS
+- pgAdmin
+- postgreSQL
+
+#### Language
+- Python
+- SQL
+
 #### Machine Learning Model Overview
 - We originally planned to use Supervised learning with linear regression. However, linear regression had a very low score. We then tried Random Forrest models and that produced a higher score. Therefore, we decided to use Random Forrest Regressor as our Machine Learning Model.
 
@@ -54,15 +63,6 @@ then we developed a function for training the models that would use all the mode
 
 ![Screenshot 2022-11-14 at 10 47 03 AM](https://user-images.githubusercontent.com/105990653/201741140-cbab5bba-ab51-47f4-8d41-98dbeb45de48.png)
 
-
-#### Database 
-- AWS
-- pgAdmin
-- postgreSQL
-
-#### Language
-- Python
-- SQL
 
 ## Results
 #### Rating Effect on Installations:

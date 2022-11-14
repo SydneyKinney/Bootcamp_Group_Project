@@ -85,11 +85,6 @@ then we developed a function for training the models that would use all the mode
 - The rating of an app does have an affect on installation. 
 - There are more downloads for free apps versus apps that users have to pay for.
 
-## Summary
-- The price of an app does have an affect on installation.
-- The rating of an app does have an affect on installation. 
-- There are more downloads for free apps versus apps that users have to pay for.
-
 ## Links
 
 #### Google Slides

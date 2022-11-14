@@ -5,4 +5,7 @@ app_install_df.csv
 clean_google_playstore.csv
 local_settings.py
 .ipynb_checkpoints
+Clean_dataframe.csv
+google_play_cleaned.csv
+category_id.csv
 __pycache__

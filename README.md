@@ -44,15 +44,16 @@ Knowing that our data was essentially clean and had been converted to a numerica
 - Our main question was about continuous values (Maximum Installs), so a supervised learning and a regression model was the best choice. 
 First, we tried the Linear Regression model, which is easier to implement, interpret and efficient to train, but the model produced a very low score. By its nature, linear regression only looks at linear relationships between dependent and independent variables. That is, it assumes there is a straight-line relationship between them. It shows that in our dataset this is incorrect.
 
-- Then we decided to try a Random Forest model instead as a it produces good predictions that can be understood easily. It can handle large datasets efficiently, which we have. The random forest algorithm provides a higher level of accuracy in predicting outcomes over the decision tree algorithm.
-Therefore, we tried the Random Forest Regressor model (with 300 decision trees) and that model showed a higher score. After that we decided to try same Random Forest Regressor model but with less decision trees (100) and this model has a little higher score. The main limitation of random forest is that a large number of trees can make the algorithm too slow and ineffective for real-time predictions. In general, these algorithms are fast to train, but have a drawback - it is quite slow to create predictions once they are trained.
+- Then we decided to try a Random Forest model instead as it produces good predictions that can be understood easily. It can handle large datasets efficiently, which we have. The random forest algorithm provides a higher level of accuracy in predicting outcomes over the decision tree algorithm.
+Therefore, we tried the Random Forest Regressor model (with 100 decision trees and tree depth of 8) and that model showed a higher score, but looks like the model is overfitted as training score is much higher than a test score. This is why we decided to try same Random Forest Regressor model but with 50 decision trees and depth of the tree 3 and this model has a little higher score. The main limitation of random forest is that a large number of trees can make the algorithm too slow and ineffective for real-time predictions. In general, these algorithms are fast to train, but have a drawback - it is quite slow to create predictions once they are trained.
 
 - Before we trained our dataset, we created a list where we defined the models we are going to use and created an empty list for results of the model. 
 then we developed a function for training the models that would use all the models we defined, train the data, and append the results to the list we had already generated.
 
 - Below is an image of the scores from each model we tried:
 
-![Screenshot 2022-11-12 at 12 38 08 PM](https://user-images.githubusercontent.com/105990653/201493683-19d5c355-d5a3-499b-a27f-b9080320f7b1.png)
+![Screenshot 2022-11-14 at 10 47 03 AM](https://user-images.githubusercontent.com/105990653/201741140-cbab5bba-ab51-47f4-8d41-98dbeb45de48.png)
+
 
 #### Database 
 - AWS

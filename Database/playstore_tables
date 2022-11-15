@@ -2,27 +2,32 @@
 CREATE TABLE google_app_info (
     app_name VARCHAR,
     category VARCHAR,
-    rating INT,
-    rating_count INT,
-    price INT,
-    PRIMARY KEY (app_name),
-    UNIQUE (category)
-    
+    rating FLOAT,
+    rating_count FLOAT,
+    free BOOL,
+    price FLOAT,
+    content_rating VARCHAR,
+    editors_choice BOOL,
+    PRIMARY KEY (app_name)   
 );
     
  
 CREATE TABLE app_installs (
     app_name VARCHAR,
-    maximum_installs INT,
-    price INT,
-    ad_supported INT,
+    installs FLOAT,
+    minimum_installs FLOAT,
+    maximum_installs FLOAT,
+    size FLOAT,
+    ad_supported BOOL,
+    in_app_purchases BOOL,
     PRIMARY KEY (app_name)
 );
 
-CREATE TABLE categories (
-    category VARCHAR,
-    category_id VARCHAR,
-    PRIMARY KEY (category_id),
-);
+-- Merge Tables
+SELECT *
+INTO playstore 
+FROM google_app_info 
+JOIN app_installs
+USING (app_name);
 
-SELECT 
+SELECT * FROM playstore;
